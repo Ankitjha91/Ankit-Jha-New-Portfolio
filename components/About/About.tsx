@@ -10,6 +10,7 @@ const personalInfo = {
   bio: 'I specialize in building exceptional digital experiences with the MERN stack.'
 }
 
+
 export default function About() {
   const [isVisible, setIsVisible] = useState(false)
   const [videoError, setVideoError] = useState(false)
